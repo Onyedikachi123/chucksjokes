@@ -1,0 +1,25 @@
+@import "../styles/variables.scss";
+
+.bannerContent{
+    // height: calc(100vh - #{$headerHeight});
+    // background: $bg;
+    display: block;
+    text-align: center;
+    color: $light;
+    padding-top: 70px;
+
+    input {
+        background-color: transparent;
+        border: 1px solid $light;
+        border-radius: 4px;
+        padding: 5px;
+        width: 20%;
+        margin-top: 20px;
+        color: $light;
+       
+        &:focus {
+            outline: none;
+        }
+        
+    }
+}

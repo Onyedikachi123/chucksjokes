@@ -1,0 +1,37 @@
+@import "../styles/variables.scss";
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+    margin-top: 50px;
+
+
+    button {
+      padding: 10px 0;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+  }
+
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+    margin-top: 50px;
+
+    button {
+      padding: 10px 10px;
+      height: 200px;
+    }
+  }
+
+  .CardHeader {
+    padding: 15px 15px;
+    text-transform: uppercase;
+  }
